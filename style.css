@@ -1,18 +1,106 @@
+
+
 *{
     
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    text-align: center;
+    
+  
 }
 
 body{
     background-color: #f4f4f4;
 }
 section{
-    max-width: 1140px;
+  
     margin: 0 auto;
+    
 }
-.menu ul li{
+li>a{
+    color: black;
+}
+.menu ul li {
     display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+
+}
+menu li a:hover{
+    color: #444;
+    
+}
+.logotipo img{
+    width: 200px;
+    border-radius: 20px;
+}
+.logotipo{
+    float: left;
+}
+.menu{
+    padding: 20px;
+}
+.slider img{
+    width: 100%;
+    height: 550px;
+}
+
+
+   
+
+
+header{
+    padding: 10px 0;
+    height: 110px;
+}
+.viagens{
+    text-align: center;
+}
+.item{
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+    margin: 10px 10px;
+
+}
+.descricao{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #444;
+}
+a{
+    text-decoration: none;
+}
+footer div{
+    width: 33%;
+    display: inline-block;
+
+}
+footer iframe{
+    width: 100%!important; 
+}
+footer{
+    background-color: #444;
+
+}
+footer input{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+}
+contato {
+    font-size: 20px;
+    padding: 10px;
+    
+}
+p{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    color: #fff;
 }
